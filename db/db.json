@@ -3,35 +3,37 @@
     {
       "_id": 1,
       "name": "team space",
-      "folders": [
-        {
-          "_id": 1,
-          "name": "Projects",
-          "subfolders": [
-            {
-              "_id": 1,
-              "name": "Projects 1",
-              "list": []
-            },
-            {
-              "_id": 2,
-              "name": "Projects 2",
-              "list": []
-            }
-          ]
-        }
-      ]
+      "folders": [1]
     },
     {
       "_id": 2,
       "name": "work",
-      "folders": [
-        {
-          "_id": 2,
-          "name": "Test Folder",
-          "subfolders": []
-        }
-      ]
+      "folders": [2]
     }
-  ]
+  ],
+  "folders": [
+    {
+      "_id": 1,
+      "name": "Projects",
+      "subfolders": [1, 2]
+    },
+    {
+      "_id": 2,
+      "name": "Test Folder",
+      "subfolders": []
+    }
+  ],
+  "subfolders": [
+    {
+      "_id": 1,
+      "name": "Projects 1",
+      "list": []
+    },
+    {
+      "_id": 2,
+      "name": "Projects 2",
+      "list": []
+    }
+  ],
+  "docs": []
 }
